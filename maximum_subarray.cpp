@@ -16,6 +16,7 @@ public:
             if (currentMax > max) {
                 max = currentMax;
             }
+
         }
         
         return max;
