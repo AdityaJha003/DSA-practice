@@ -10,7 +10,7 @@
 
 import java.util.*;
 
-public class Sum{
+public class ThreeSum{
     public List<List<Integer>> threeSum(int[] nums) {
         if (nums.length < 3)
           return new ArrayList<>();
@@ -46,7 +46,7 @@ public class Sum{
       }
       public static void main(String[] args) {
         int[] nums = {-1,0,1,2,-1,-4};
-        Sum s = new Sum();
+        ThreeSum s = new ThreeSum();
         List<List<Integer>> ans = s.threeSum(nums);
         for (List<Integer> l : ans) {
           System.out.println(l);
