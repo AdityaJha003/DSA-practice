@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/valid-anagram/description/
+// Input: s = "anagram", t = "nagaram"
+// Output: true
+
 public class validAnagram {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length())
