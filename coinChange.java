@@ -1,3 +1,9 @@
+// https://leetcode.com/problems/coin-change/
+// Input: coins = [1,2,5], amount = 11
+// Output: 3
+// Explanation: 11 = 5 + 5 + 1
+
+
 import java.util.Arrays;
 
 public class coinChange {
