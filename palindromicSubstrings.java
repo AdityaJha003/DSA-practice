@@ -1,4 +1,7 @@
-
+// https://leetcode.com/problems/palindromic-substrings/
+// Input: s = "aaa"
+// Output: 6
+// Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 
 public class palindromicSubstrings {
     public int countSubstrings(String s) {
