@@ -4,7 +4,9 @@
 // Explanation: The binary representation of 5 is 101 (no leading zero bits), and its complement is 010. So you need to output 2.
 
 public class numberComplement {
+
     public int findComplement(int num) {
+      
         for (long i = 1; i <= num; i <<= 1)
           num ^= i;
         return num;
